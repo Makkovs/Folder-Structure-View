@@ -1,0 +1,34 @@
+{
+  "name": "@zoodogood/folder-structure-view",
+  "version": "0.0.0",
+  "author": "https://gitub.com/Makkovs",
+  "description": "Open file structure in browser",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Makkovs/Folder-Structure-View"
+  },
+  "scripts": {
+    "prepack": "tsc"
+  },
+  "keywords": [],
+  "files": [
+    "/build/**/*"
+  ],
+  "bin": {
+    "folder-view": "build/bin.js"
+  },
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "typings": "build/index",
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@zoodogood/utils": "^1.0.4",
+    "cli-select": "^1.1.2"
+  }
+}
